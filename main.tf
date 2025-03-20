@@ -1,8 +1,3 @@
-provider "azurerm" {
-  subscription_id = var.subscription_id
-  features {}
-}
-
 resource "azurerm_resource_group" "terraform_project" {
   name     = "terraform-project-resources"
   location = var.location
