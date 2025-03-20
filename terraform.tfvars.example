@@ -1,0 +1,5 @@
+subscription_id = "your-subscription-id"
+location        = "West Europe"
+vm_size         = "Standard_B2s"
+admin_username  = "your-username"
+ssh_public_key  = "~/.ssh/id_rsa.pub"

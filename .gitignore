@@ -1,0 +1,27 @@
+# Ignore Terraform state files (Critical: Contains sensitive infrastructure data)
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform plan output files
+*.tfplan
+
+# Ignore provider cache files
+.terraform/
+.terraform.lock.hcl
+
+# Ignore variable files containing sensitive data
+terraform.tfvars
+*.tfvars
+
+# Ignore environment-specific variable files (if used)
+envs/*.tfvars
+
+# Ignore SSH private keys (Security Risk)
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Ignore logs and temporary files
+crash.log
+terraform.log
